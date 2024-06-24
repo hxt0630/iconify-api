@@ -1,0 +1,13 @@
+{
+    "apps": [{
+        "name": "iconify.api.server",
+        "script": "lib/index.js",
+        "env": {
+            "PRODUCT_ENV": "production"
+        },
+        "instances": 2,
+        "watch": false,
+        "log_date_format": "YYYY-MM-DD HH:mm:ss",
+        "combine_logs": true
+    }]
+}
